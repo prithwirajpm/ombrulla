@@ -26,7 +26,7 @@ function EightCustomers() {
   };
 
   return (
-    <div className="h-fit xl:mx-24 xl:mb-[200px] mb-[50px] xl:mt-0 mt-[520px]">
+    <div className="h-fit xl:mx-24 xl:mb-[200px] mb-[50px] xl:mt-0 mt-[470px]">
       <div className="flex justify-center items-center">
         <div className="flex">
           <div

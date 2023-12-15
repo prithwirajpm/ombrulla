@@ -3,7 +3,7 @@ import NorthEastIcon from "@mui/icons-material/NorthEast";
 
 function FivethSection() {
   return (
-    <div className="h-screen xl:px-24 xl:mt-0 mt-[50px] xl:flex justify-center items-center">
+    <div className="h-screen xl:px-24 xl:mt-0 mt-[20px] xl:flex justify-center items-center">
       <div className="w-full xl:flex">
         <div className="xl:w-1/2 xl:mx-2 mx-4 my-2">
           <div className="flex flex-row mb-6">
