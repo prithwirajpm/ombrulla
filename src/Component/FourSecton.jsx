@@ -14,7 +14,7 @@ function FourSection() {
             className="w-[80vh] h-[65vh] rounded-[1rem]"
           />
         </div>
-        <div className="xl:w-1/2 xl:ms-10 xl:mx-0 mx-4 my-2">
+        <div className="xl:w-1/2 xl:ms-10 xl:mx-0 mx-4 my-2 xl:mt-0 mt-[275px]">
           <div className="flex flex-row mb-6">
             <div
               style={{ width: "8px", height: "8px", backgroundColor: "blue" }}

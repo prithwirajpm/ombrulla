@@ -6,7 +6,7 @@ function SevenProducts() {
     <div className="xl:px-24 h-screen xl:flex justify-center items-center">
       <div className="xl:w-full xl:flex">
         <div className="xl:w-4/12 m-5">
-          <div className="flex flex-row mb-6 xl:mt-0 mt-[400px]">
+          <div className="flex flex-row mb-6 xl:mt-0 mt-[500px]">
             <div
               style={{ width: "8px", height: "8px", backgroundColor: "blue" }}
               className="m-2 shadow"

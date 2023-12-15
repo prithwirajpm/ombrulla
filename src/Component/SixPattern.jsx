@@ -4,7 +4,7 @@ import NorthEastIcon from "@mui/icons-material/NorthEast";
 function SixPattern() {
   return (
     <div className="h-screen xl:flex justify-center items-center">
-      <div className="w-full py-16 xl:px-24 px-8 bg-blue-600 xl:flex">
+      <div className="w-full py-16 xl:px-24 px-8 xl:mt-0 mt-[300px] bg-blue-600 xl:flex">
         <div className="xl:w-1/2">
           <div className="xl:flex flex-row">
             <img
