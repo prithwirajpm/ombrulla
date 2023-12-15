@@ -36,7 +36,7 @@ export default function Services() {
                   href="#"
                   className="px-4 black block border-b-2 py-4 text-sm"
                 >
-                  AI-Visual-Inspection
+                  AI Visual Inspection
                 </a>
               )}
             </Menu.Item>
@@ -46,7 +46,7 @@ export default function Services() {
                   href="#"
                   className="px-4 black block border-b-2 py-4 text-sm"
                 >
-                  AI-Infrastructure-Inspection
+                  AI Infrastructure Inspection
                 </a>
               )}
             </Menu.Item>
@@ -56,15 +56,15 @@ export default function Services() {
                   href="#"
                   className="px-4 black block border-b-2 py-4 text-sm"
                 >
-                  AI-People-Tracking
+                  AI People Tracking
                 </a>
               )}
             </Menu.Item>
             <form method="POST" action="#">
               <Menu.Item>
                 {({ active }) => (
-                  <a href="#" className="px-4 block border py-4 text-sm">
-                    AI-Data-Analytics
+                  <a href="#" className="px-4 block py-4 text-sm">
+                    AI Data Analytics
                   </a>
                 )}
               </Menu.Item>

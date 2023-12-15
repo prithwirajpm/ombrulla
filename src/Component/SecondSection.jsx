@@ -3,9 +3,9 @@ import "../Component/FirstSection.css";
 
 function SecondSection() {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="xl:h-screen h-fit xl:px-24 xl:mt-0 mt-[70px]  flex justify-center items-center">
       <div className="second-bgImg rounded-[2rem] shadow-2xl flex justify-center items-center">
-        <div className="xl:w-3/4">
+        <div className="xl:w-3/4 xl:py-40 py-8 xl:px-0 px-8">
           <div className="flex flex-row mb-6">
             <div
               style={{ width: "8px", height: "8px", backgroundColor: "blue" }}
@@ -19,7 +19,7 @@ function SecondSection() {
             <span className="text-blue-600">AI Excellence</span>
           </h1>
 
-          <p className="mt-10 xl:mr-20 font-medium" style={{ color: "grey" }}>
+          <p className="mt-10 xl:mr-20 font-medium text-gray-600">
             The majority of customers lack data-driven insights and automation.
             Using AI, Ombrulla assist clients in extracting data from diverse
             sources such as photos, videos, and data lakes, which can assist

@@ -3,17 +3,18 @@ import NorthEastIcon from "@mui/icons-material/NorthEast";
 
 function FourSection() {
   return (
-    <div className="xl:h-screen flex justify-center items-center">
+    <div className="xl:h-screen xl:px-24 flex justify-center items-center">
       <div className="xl:w-full xl:flex">
-        <div className="xl:w-1/2 flex justify-center items-center">
+        <div className="w-full xl:w-1/2 flex justify-center items-center hidden md:flex">
+          {/* Hidden on screens smaller than md (medium) */}
           <img
             src="https://www.ombrulla.com/_astro/ai-visual-inspection.7625d432_2nYhqo.webp"
             alt=""
-            srcset=""
+            srcSet=""
             className="w-[80vh] h-[65vh] rounded-[1rem]"
           />
         </div>
-        <div className="xl:w-1/2 xl:ms-10 my-2">
+        <div className="xl:w-1/2 xl:ms-10 xl:mx-0 mx-4 my-2">
           <div className="flex flex-row mb-6">
             <div
               style={{ width: "8px", height: "8px", backgroundColor: "blue" }}

@@ -1,6 +1,48 @@
 .second-bgImg{
   background-image: url("https://www.ombrulla.com/images/home/position-statement.svg");
   width: 100%;
-  height: 80vh;
+  height: auto;
   margin: 5px;
 }
+
+.testimonial-border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px dotted #ffffff; /* Adjust the border color and style as needed */
+}
+
+@keyframes sliderShape {
+  0%,to {
+      border-radius: 42% 58% 70% 30%/45% 45% 55% 55%;
+      transform: translateZ(0) rotate(.01deg)
+  }
+
+  34% {
+      border-radius: 70% 30% 46% 54%/30% 29% 71% 70%;
+      transform: translate3d(0,5px,0) rotate(.01deg)
+  }
+
+  50% {
+      transform: translateZ(0) rotate(.01deg)
+  }
+
+  67% {
+      border-radius: 100% 60% 60% 100%/100% 100% 60% 60%;
+      transform: translate3d(0,-3px,0) rotate(.01deg)
+  }
+}
+
+/* In your CSS file */
+@keyframes slideIn {
+  from {
+    transform: translatex(-90%);
+  }
+  to {
+    transform: translatex(0);
+  }
+}
+
+

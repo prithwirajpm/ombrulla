@@ -1,9 +1,10 @@
 import React from "react";
+import "../Component/FirstSection.css";
 
 const FirstSection = () => {
   return (
-    <div className="flex flex-col md:flex-row max-h-screen mt-6">
-      <div className="w-full md:w-1/2 p-4">
+    <div className="flex flex-col xl:px-24 md:flex-row max-h-screen mt-6">
+      <div className="xl:w-1/2 p-4">
         <div
           style={{
             fontSize: "60px",
@@ -16,7 +17,7 @@ const FirstSection = () => {
           <h1 className="text-blue-600">Prone</h1>
         </div>
         <div className="mt-6">
-          <p style={{ color: "grey", fontWeight: "bold" }}>
+          <p className="font-medium text-gray-600">
             AI-driven computer vision transforms manufacturing quality
             inspection, boosting precision and cost-efficiency while upholding
             product excellence.
@@ -34,17 +35,41 @@ const FirstSection = () => {
           </a>
         </div>
       </div>
-      <div className="custom-shape w-full md:w-1/2 flex justify-center align-center">
-        <img
-          src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
-          alt="Your Image"
-          className="w-full h-auto"
-          style={{
-            mask: 'url("https://www.ombrulla.com/images/home/mask-banner.png") center / contain no-repeat',
-            width: "500px",
-            height: "506px",
-          }}
-        />
+      <div className="flex justify-center align-center">
+        <div className="xl:w-1/2">
+          <div
+            className="border-2 xl:absolute xl:top-[50px] xl:left-[800px] sliderShape border-blue-600 rounded-full overflow-hidden hidden md:block"
+            style={{
+              width: "400px", // Adjust the width and height as needed
+              height: "400px",
+              borderRadius: "62% 47% 82% 35%/45% 45% 80% 66%",
+              willChange: "border-radius,transform,opacity",
+              animation: "sliderShape 5s linear infinite",
+              WebkitAnimation: "sliderShape 5s linear infinite",
+            }}
+          ></div>
+          <div
+            className="border-2 xl:absolute xl:top-[50px] xl:left-[1020px] border-white-600 rounded-full overflow-hidden hidden md:block"
+            style={{
+              width: "390px", // Adjust the width and height as needed
+              height: "390px",
+              borderRadius: "62% 47% 82% 35%/45% 45% 80% 66%",
+              willChange: "border-radius,transform,opacity",
+              animation: "sliderShape 5s linear infinite",
+              WebkitAnimation: "sliderShape 5s linear infinite",
+            }}
+          ></div>
+          <img
+            src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
+            alt="Your Image"
+            className="w-full h-auto xl:absolute xl:top-[100px] xl:left-[870px]"
+            style={{
+              mask: 'url("https://www.ombrulla.com/images/home/mask-banner.png") center / contain no-repeat',
+              width: "450px",
+              height: "450px",
+            }}
+          />
+        </div>
       </div>
     </div>
   );
