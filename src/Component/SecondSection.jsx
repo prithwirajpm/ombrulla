@@ -3,7 +3,7 @@ import "../Component/FirstSection.css";
 
 function SecondSection() {
   return (
-    <div className="xl:h-screen h-fit xl:px-24 xl:mt-0 mt-[400px]  flex justify-center items-center">
+    <div className="xl:h-screen h-fit xl:px-24 xl:mt-0 mt-[350px]  flex justify-center items-center">
       <div className="second-bgImg rounded-[2rem] shadow-2xl flex justify-center items-center">
         <div className="xl:w-3/4 xl:py-40 py-8 xl:px-0 px-8">
           <div className="flex flex-row mb-6">
