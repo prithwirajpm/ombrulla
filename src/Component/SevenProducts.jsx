@@ -30,7 +30,7 @@ function SevenProducts() {
         <div className="xl:w-4/12 mx-4">
           <div className="bg-[#eff1f5] rounded-2xl px-12 py-8 w-fit">
             <div>
-              <h1 className="font-medium font-albert-sans text-8xl mb-6 text-2xl eading-8">
+              <h1 className="font-medium mb-6 text-2xl">
                 Job Grading and Evaluation
               </h1>
             </div>
@@ -65,12 +65,12 @@ function SevenProducts() {
         <div className="xl:w-4/12 xl:mx-0 mx-4 xl:my-0 my-4">
           <div className="bg-[#eff1f5] rounded-2xl px-8 py-8 w-fit">
             <div>
-              <h1 className="font-medium font-albert-sans text-8xl mb-6 text-2xl eading-8">
+              <h1 className="font-medium mb-6 text-2xl">
                 Compensation Management
               </h1>
             </div>
             <div>
-              <p className="leading-snug leading-7 text-gray-500">
+              <p className="leading-7 text-gray-500">
                 Compensation management software automates salary planning,
                 budget management, and equity analysis, ensuring fair and
                 competitive pay practices.
